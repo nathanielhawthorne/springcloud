@@ -1,0 +1,16 @@
+server:
+  port: 8902 # �����ṩ��
+
+# ָ����ǰeureka�ͻ��˵�ע���ַ,
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:9000/eureka/
+  instance:
+    hostname: localhost
+
+#��ǰ��������
+spring:
+  application:
+    name: eurekaservice2
+

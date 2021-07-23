@@ -1,0 +1,11 @@
+server:
+  port: 9000  #eureka注册中心服务端口
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false #不向eureka注册中心注册。也就是为了关闭自己向自己注册，eureka默认要向自己注册
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

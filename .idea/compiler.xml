@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zuul" />
+        <module name="eurekaservice07" />
+        <module name="eurekaservice06" />
+        <module name="eurekaservice05" />
+        <module name="Eureka Server" />
+        <module name="eurekaservice03" />
+        <module name="eurekaservice02" />
+        <module name="eurekaservice01" />
+        <module name="eurekaservice04" />
+        <module name="eurekaservice08" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eureka Server" target="1.8" />
+      <module name="eurekaservice01" target="1.8" />
+      <module name="eurekaservice02" target="1.8" />
+      <module name="eurekaservice03" target="1.8" />
+      <module name="eurekaservice04" target="1.8" />
+      <module name="eurekaservice05" target="1.8" />
+      <module name="eurekaservice06" target="1.8" />
+      <module name="eurekaservice07" target="1.8" />
+      <module name="eurekaservice08" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka Server" options="-parameters" />
+      <module name="eurekaservice01" options="-parameters" />
+      <module name="eurekaservice02" options="-parameters" />
+      <module name="eurekaservice03" options="-parameters" />
+      <module name="eurekaservice04" options="-parameters" />
+      <module name="eurekaservice05" options="-parameters" />
+      <module name="eurekaservice06" options="-parameters" />
+      <module name="eurekaservice07" options="-parameters" />
+      <module name="eurekaservice08" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
