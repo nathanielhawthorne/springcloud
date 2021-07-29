@@ -7,10 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaservice02/eurekaservice02.iml" filepath="$PROJECT_DIR$/eurekaservice02/eurekaservice02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaservice03/eurekaservice03.iml" filepath="$PROJECT_DIR$/eurekaservice03/eurekaservice03.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaservice04/eurekaservice04.iml" filepath="$PROJECT_DIR$/eurekaservice04/eurekaservice04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaservice05/eurekaservice05.iml" filepath="$PROJECT_DIR$/eurekaservice05/eurekaservice05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaservice06/eurekaservice06.iml" filepath="$PROJECT_DIR$/eurekaservice06/eurekaservice06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaservice07/eurekaservice07.iml" filepath="$PROJECT_DIR$/eurekaservice07/eurekaservice07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaservice08/eurekaservice08.iml" filepath="$PROJECT_DIR$/eurekaservice08/eurekaservice08.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
